@@ -3,7 +3,7 @@ module gitee.com/zhaochuninhefei/fabric-chaincode-go-gm
 go 1.17
 
 require (
-	gitee.com/zhaochuninhefei/gmgo v0.0.3
+	gitee.com/zhaochuninhefei/gmgo v0.0.4
 	github.com/golang/protobuf v1.5.2
 	github.com/hyperledger/fabric-protos-go v0.0.0-20220202165055-956c75de7b17
 	github.com/stretchr/testify v1.7.0
@@ -22,4 +22,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
 
+// gitee.com/zhaochuninhefei/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo
 replace github.com/hyperledger/fabric-protos-go => github.com/hyperledger/fabric-protos-go v0.0.0-20200506201313-25f6564b9ac4
