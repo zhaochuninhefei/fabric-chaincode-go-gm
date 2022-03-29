@@ -4,7 +4,6 @@
 package attrmgr_test
 
 import (
-	// "crypto/x509"
 	"encoding/base64"
 	"testing"
 

@@ -4,7 +4,6 @@
 package cid
 
 import (
-	// "crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/base64"
@@ -203,7 +202,7 @@ func (c *ClientID) getIdentity() (*msp.SerializedIdentity, error) {
 }
 
 func (c *ClientID) getAttributesFromIdemix() error {
-	creator, err := c.stub.GetCreator()
+	creator, _ := c.stub.GetCreator()
 	attrs, err := attrmgr.New().GetAttributesFromIdemix(creator)
 	if err != nil {
 		return fmt.Errorf("failed to get attributes from the transaction invoker's idemix credential: %s", err)
