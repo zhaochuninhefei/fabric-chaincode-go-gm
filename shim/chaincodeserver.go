@@ -9,9 +9,9 @@ import (
 	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
 
 	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 
-	"google.golang.org/grpc/keepalive"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 )
 
 // TLSProperties passed to ChaincodeServer

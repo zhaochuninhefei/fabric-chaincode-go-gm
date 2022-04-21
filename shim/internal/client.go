@@ -9,10 +9,10 @@ import (
 
 	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
 
-	credentials "gitee.com/zhaochuninhefei/gmgo/gmtls/gmcredentials"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 )
 
 const (

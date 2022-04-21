@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/pkg/cid"
+	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/stretchr/testify/assert"
 )
 

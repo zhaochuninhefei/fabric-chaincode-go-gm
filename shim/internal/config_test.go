@@ -12,13 +12,13 @@ import (
 	"time"
 
 	. "gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
+	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	credentials "gitee.com/zhaochuninhefei/gmgo/gmtls/gmcredentials"
+	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 	"gitee.com/zhaochuninhefei/gmgo/x509"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
 )
 
 // TLS <key, cert, cacert> tuples for client and server were created

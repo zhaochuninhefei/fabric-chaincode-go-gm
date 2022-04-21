@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal/mock"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
+	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 
 	"github.com/stretchr/testify/assert"
 )

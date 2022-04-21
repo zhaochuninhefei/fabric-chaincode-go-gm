@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/pkg/statebased"
+	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/stretchr/testify/assert"
 )
 

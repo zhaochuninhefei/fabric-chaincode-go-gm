@@ -12,9 +12,9 @@ import (
 	"errors"
 	"fmt"
 
+	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/msp"
 )
 
 var (

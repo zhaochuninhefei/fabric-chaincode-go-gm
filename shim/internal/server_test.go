@@ -13,8 +13,8 @@ import (
 
 	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
 
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/keepalive"
 )
 
 func TestBadServer(t *testing.T) {

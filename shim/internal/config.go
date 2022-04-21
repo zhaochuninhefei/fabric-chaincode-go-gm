@@ -13,8 +13,8 @@ import (
 	"time"
 
 	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"google.golang.org/grpc/keepalive"
 )
 
 // Config contains chaincode's configuration

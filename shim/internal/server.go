@@ -9,10 +9,9 @@ import (
 	"time"
 
 	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-
-	credentials "gitee.com/zhaochuninhefei/gmgo/gmtls/gmcredentials"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 )
 
 const (
