@@ -3,7 +3,7 @@ module gitee.com/zhaochuninhefei/fabric-chaincode-go-gm
 go 1.17
 
 require (
-	gitee.com/zhaochuninhefei/fabric-protos-go-gm v0.0.1
+	gitee.com/zhaochuninhefei/fabric-protos-go-gm v0.0.3
 	gitee.com/zhaochuninhefei/gmgo v0.0.16
 	github.com/golang/protobuf v1.5.2
 	github.com/stretchr/testify v1.7.0
